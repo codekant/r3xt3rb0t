@@ -1,0 +1,6 @@
+{
+  "clientId": "624873497662980099",
+  "clientSecret": "sbaBbvnsYB_Iwbb7JncCQOjeRusoZF9y",
+  "scopes": ["identify"],
+  "redirectUri": "https://r3xt3r.glitch.me/authorize/callback"
+}

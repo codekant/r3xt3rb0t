@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title><%- pageTitle %></title>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '624877002670735372',
+    channel: '629572866962096128',
+    shard: 'https://disweb.deploys.io'
+  })   
+  </script>
+</head>
+<body>
+    <%- include('partials/navbar.ejs') %>
+
+    <div class="page-content">
+      <center>
+        <h1>R3XT3R - COMMANDS</h1>
+        <br><br><br>
+        <div class="warning-msg">
+        <i class="fa fa-warning"></i>
+          <h3><b>TOTAL COMMANDS: <%- stats.commandsize %></b></h3>
+        </div>
+        <b>
+        <h2>
+        <%- stats.commands %>
+        </h2>
+        </b>
+        </center>
+    </div>
+  <br /><br /><br /><br />
+  <div class="footer">
+    <%- include('partials/footer.ejs') %>
+  </div>
+</body>
+</html>
