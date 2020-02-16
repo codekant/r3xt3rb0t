@@ -1,0 +1,25 @@
+<div class="navbar">
+    <a href="/">R3XT3R</a>
+
+    <div class="right">
+        <% if (user) { %>
+            <a href="/">HOME</a>
+            <a href="/status">STATUS</a>
+            <a href="/discord" target="_blank">DISCORD</a>
+            <a href="/commands">COMMANDS</a>
+            <a href="/invite" target="_blank">INVITE</a>
+            <a href="/authorize/logout">LOGOUT</a>
+            <a>  │  </a>
+            <a href="/me"><%- user.tag %></a>
+            <a href="/me"><img src="<%- user.avatarURL %>" width="45" height="45" style="border-radius: 50%;" align="middle" alt="avatar"></a>
+        <% } else { %>
+            <a href="/">HOME</a>
+            <a href="/status">STATUS</a>
+            <a href="/discord" target="_blank">DISCORD</a>
+            <a href="/commands">COMMANDS</a>
+            <a href="/invite" target="_blank">INVITE</a>
+            <a href="/authorize">LOGIN</a>
+        <% } %>
+    </div>
+</div>
+

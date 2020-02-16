@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "funny",
+    "header": "What did the traffic light say to the car?",
+    "body": "Hey, don't look at me! I am about to change."
+  },
+  {
+    "id": 2,
+    "type": "funny",
+    "header": "What do you call a fish without eyes?",
+    "body": "'FSH' lmao."
+  },
+  {
+    "id": 3,
+    "type": "funny",
+    "header": "My boss told me to have a good day...",
+    "body": "So I went home..."
+  },
+  {
+    "id": 4,
+    "type": "programming",
+    "header": "Why python lives in land?",
+    "body": "Because its above C-Level."
+  }
+]

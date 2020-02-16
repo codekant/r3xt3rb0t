@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Refresh" content="5">
+    <title><%- pageTitle %></title>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '624877002670735372',
+    channel: '629572866962096128',
+    shard: 'https://disweb.deploys.io'
+  })   
+  </script>
+</head>
+<body>
+    <%- include('partials/navbar.ejs') %>
+
+    <div class="page-content">
+      <center>
+        <h1>R3XT3R - COMMANDS</h1>
+        <br><br><br>
+        <div class="warning-msg">
+        <i class="fa fa-warning"></i>
+        THIS PAGE AUTO-UPDATES IN EVERY 5 SECONDS.
+        </div>
+        <b><h2>NAME: <%- stats.username %></h2></b>
+        <b><h2>ID: <%- stats.id %></h2></b>
+        <b><h2>UPTIME: <%- stats.uptime %></h2></b>
+        <b><h2>PING: <%- stats.ping %></h2></b>
+        <b><h2>MEMORY USAGE: <%- stats.memory %></h2></b>
+        <b><h2>TOTAL COMMANDS: <%- stats.commandsize %></h2></b>
+        <b><h2>TOTAL CHANNELS: <%- stats.channels %></h2></b>
+        <b><h2>TOTAL GUILDS: <%- stats.guilds %></h2></b>
+        <b><h2>TOTAL USERS: <%- stats.users %></h2></b>
+        <b><h2>VOICE CONNECTIONS: <%- stats.voice %></h2></b>
+        <b><h2>CREATED: <%- stats.created %></h2></b>
+        </center>
+    </div>
+  <br /><br /><br /><br />
+  <div class="footer">
+    <%- include('partials/footer.ejs') %>
+  </div>
+</body>
+</html>
